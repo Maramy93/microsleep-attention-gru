@@ -1,0 +1,11 @@
+sampling_rate: 200
+window_seconds: 1.5
+overlap_fraction: 0.33
+forecast_seconds: 0
+batch_size: 32
+epochs: 50
+learning_rate: 0.001
+validation_split: 0.2
+random_state: 42
+selected_features: 20
+temporal_window_size: 5

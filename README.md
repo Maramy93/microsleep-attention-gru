@@ -33,7 +33,7 @@ Our hypothesis is:
 
 Therefore, we introduce a **causal multi-head self-attention layer** before the GRU to selectively preserve informative temporal patterns before sequence modelling.
 
-The proposed architecture enables the model to focus on informative EEG segments while respecting temporal causality, leading to improved forecasting performance across multiple prediction horizons. :contentReference[oaicite:1]{index=1}
+The proposed architecture enables the model to focus on informative EEG segments while respecting temporal causality, leading to improved forecasting performance across multiple prediction horizons. 
 
 ---
 
@@ -57,7 +57,7 @@ microsleep-attention-gru
 │   ├── train.py
 │   └── visualize.py
 │
-└── figures
+└── 
 ```
 
 ---
@@ -111,7 +111,7 @@ Fully Connected Layer
 Sigmoid
 ```
 
-The causal attention layer prevents future information leakage while allowing the model to emphasize informative temporal regions before recurrent processing. :contentReference[oaicite:3]{index=3}
+The causal attention layer prevents future information leakage while allowing the model to emphasize informative temporal regions before recurrent processing. 
 
 ---
 
@@ -153,6 +153,7 @@ Creates
 - Attention heatmaps
 - Feature visualizations
 
+Check the paper below
 ---
 
 # Dataset
@@ -172,7 +173,7 @@ The dataset contains
 - Drowsiness
 - Microsleep episodes
 
-Signals were segmented into 1-second windows for forecasting experiments. :contentReference[oaicite:4]{index=4}
+Signals were segmented into 1-second windows for forecasting experiments. 
 
 ---
 
@@ -206,7 +207,7 @@ The largest improvements were observed in
 - AUC-ROC
 - AUC-PR
 
-particularly at extended forecasting horizons where temporal degradation becomes most severe. :contentReference[oaicite:5]{index=5}
+particularly at extended forecasting horizons where temporal degradation becomes most severe. 
 
 ---
 
